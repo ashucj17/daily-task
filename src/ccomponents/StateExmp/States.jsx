@@ -1,3 +1,5 @@
+import BgColor from "./BgColor";
+import ShowHide from "./ShowHide";
 
 
 const States = () => {
@@ -10,6 +12,8 @@ const States = () => {
                 probArr.map(problems => <li key={problems}><a href="http://">{problems}</a></li>)
             }
         </ul>
+        <ShowHide />
+        <BgColor />
     </>
   )
 }
